@@ -2,6 +2,7 @@ import { valueSourceRequestBody } from './value-source-request-body'
 import { valueSourceRequestHeader } from './value-source-request-header'
 import { valueSourceResponseBody } from './value-source-response-body'
 import { valueSourceResponseCode } from './value-source-response-code'
+import { valueSourceResponseCookie } from './value-source-response-cookie'
 import { valueSourceResponseHeader } from './value-source-response-header'
 import { valueSourceStatic } from './value-source-static'
 
@@ -12,4 +13,5 @@ export const allValueSources = [
   valueSourceRequestHeader,
   valueSourceResponseCode,
   valueSourceStatic,
+  valueSourceResponseCookie
 ]
